@@ -1,0 +1,27 @@
+{
+  "name": "real-time-application",
+  "version": "1.0.0",
+  "description": "Simple chat application in Node.js with Socket.IO",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "socket.io",
+    "chat",
+    "real-time",
+    "express",
+    "moment",
+    "websockets"
+  ],
+  "author": "JRajz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "path": "^0.12.7",
+    "socket.io": "^4.7.2"
+  }
+}
