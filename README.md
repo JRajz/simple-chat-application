@@ -36,6 +36,15 @@ This is a simple chat application built using Node.js and Socket.IO. It includes
 
 3. **Enter your username and room, start chatting with others in real-time!**
 
+## Socket.IO Events
+
+- `connection`: Triggered when a user is connected.
+- `joinRoom`: Use this event to join a particular room.
+- `message`: Send a message to the room joined by the user.
+- `roomUsers`: Retrieve a list of users in a particular room.
+- `disconnect`: Triggered when a user leaves the chat.
+- `chatMessage`: Listen for this event to receive a particular message.
+
 ## Project Structure
 
 - `index.js`: The main server file that sets up the Socket.IO server and handles connections.
